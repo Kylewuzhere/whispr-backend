@@ -7,7 +7,6 @@ require('./auth.js');
 
 const indexRouter = require('./routes/indexRouter');
 const authRouter = require('./routes/authRouter');
-const companiesRouter = require('./routes/companyRouter');
 
 const app = express();
 
