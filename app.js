@@ -34,5 +34,4 @@ app.use(passport.session());
 
 app.use('/', indexRouter);
 app.use('/auth', authRouter);
-app.use('/api/companies', companiesRouter);
 module.exports = app;
